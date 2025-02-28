@@ -1,0 +1,2 @@
+streamlit
+Pillow  # Für die Bildverarbeitung
