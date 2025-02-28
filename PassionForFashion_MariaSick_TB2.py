@@ -194,7 +194,7 @@ def info_page(): #Most of this page is made the same way as the other: a title, 
         width=300)
     with c2:
         st.image("images/clueless.jpeg",
-        width=350)
+        width=370)
 
     with st.expander("This is me and some of my outfits:"):
         c1, c2, c3 = st.columns(3)
