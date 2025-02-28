@@ -193,7 +193,7 @@ def info_page(): #Most of this page is made the same way as the other: a title, 
         st.image("images/Cher.jpeg",
         width=300)
     with c2:
-        st.image("images/clueless",
+        st.image("images/clueless.jpeg",
         width=350)
 
     with st.expander("This is me and some of my outfits:"):
