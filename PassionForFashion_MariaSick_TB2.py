@@ -9,7 +9,7 @@ if 'name' not in st.session_state:
     st.session_state.name = ""
 
 def main_page():
-    st.image("images /Passion_for_Fashion.png", use_column_width=True) #To display an image as a nice introduction to my app
+    st.image("images /Passion_for_Fashion.png", use_container_width=True) #To display an image as a nice introduction to my app
 
     st.subheader("Welcome to Passion for Fashion!✂️👗🪡")
     st.write("This app is your personal styling assistant. Not only will it help you learn more about your own style"
