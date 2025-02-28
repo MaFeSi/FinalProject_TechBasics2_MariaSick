@@ -9,8 +9,7 @@ if 'name' not in st.session_state:
     st.session_state.name = ""
 
 def main_page():
-    st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images "
-                 "/Passion_for_Fashion.png", use_column_width=True) #To display an image as a nice introduction to my app
+    st.image("images /Passion_for_Fashion.png", use_column_width=True) #To display an image as a nice introduction to my app
 
     st.subheader("Welcome to Passion for Fashion!✂️👗🪡")
     st.write("This app is your personal styling assistant. Not only will it help you learn more about your own style"
@@ -104,13 +103,13 @@ def guide_page():
     with st.expander("**Here are some outfit inspirations:**"): #The expander makes the app more interactive and clear
         c1, c2, c3 = st.columns(3) #By creating columns, it is possible to place multiple pictures or texts next to each other
         with c1:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /casual1.jpeg",
+            st.image("images /casual1.jpeg",
                      width=200)
         with c2:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /casual2.png",
+            st.image("images /casual2.png",
                      width=210)
         with c3:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /casual3.jpeg",
+            st.image("images /casual3.jpeg",
                      width=215)
 
     st.subheader("Extravagant, Brave and Eye-Catching:")
@@ -125,14 +124,13 @@ def guide_page():
     with st.expander("**Here are some outfit inspirations:**"):
         c1, c2, c3 = st.columns(3)
         with c1:
-            st.image(
-                "/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /extravagant1.jpeg",
+            st.image("images /extravagant1.jpeg",
                 width=200)
         with c2:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /extravagant2.jpg",
+            st.image("images /extravagant2.jpg",
                 width=200)
         with c3:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /extravagant3.jpeg",
+            st.image("images /extravagant3.jpeg",
                 width=210)
 def upload_page():
     st.title("Your Outfit Generator🪡")
@@ -192,22 +190,22 @@ def info_page(): #Most of this page is made the same way as the other: a title, 
 
     c1, c2 = st.columns(2)
     with c1:
-        st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /Cher.jpeg",
+        st.image("images /Cher.jpeg",
         width=300)
     with c2:
-        st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /clueless .png",
+        st.image("images /clueless.png",
         width=350)
 
     with st.expander("This is me and some of my outfits:"):
         c1, c2, c3 = st.columns(3)
         with c1:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /me1.jpg",
+            st.image("images /me1.jpg",
                      width=200)
         with c2:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /me2.jpg",
+            st.image("images /me2.jpg",
                      width=200)
         with c3:
-            st.image("/Users/mariasick/Desktop/Tech_Basics/Tech_Basics_2/TechBasics2_streamlit_app/richtige_Versionen/images /me3.jpg",
+            st.image("images /me3.jpg",
                      width=200)
 
 st.sidebar.header("Menu") #The sidebar is set so the user can skip through all of the pages
