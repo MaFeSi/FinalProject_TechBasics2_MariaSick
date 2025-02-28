@@ -155,7 +155,7 @@ def upload_page():
         if files:
             st.session_state[category].extend(files)
 
-    st.header("This is how your outfit looks at the moment:")
+    st.header("This is what your outfit looks like right now:")
 
     def display_item(category, emoji, caption):
         col1, col2 = st.columns([3, 1]) #This creates two columns, a larger one for the images and a smaller one for the buttons
